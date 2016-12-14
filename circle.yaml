@@ -1,0 +1,8 @@
+machine:
+  timezone:
+    Asia/Tokyo
+  node:
+    version: 7.2.1
+  environment:
+    NODE_PATH: "./"
+    NODE_ENV: "test"

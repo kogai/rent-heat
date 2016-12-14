@@ -1,0 +1,7 @@
+{
+    "extends": "plugin:flowtype/recommended",
+    "installedESLint": true,
+    "plugins": [
+        "flowtype"
+    ]
+}

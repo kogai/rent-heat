@@ -1,0 +1,6 @@
+[ignore]
+.*/node_modules/xlsx/*
+
+[include]
+../node_modules/
+../lib/

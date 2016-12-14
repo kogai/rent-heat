@@ -1,0 +1,32 @@
+{
+  "name": "rent-heat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run flow",
+    "flow": "$(npm bin)/flow",
+    "eslint": "$(npm bin)/eslint",
+    "flow-typed": "$(npm bin)/flow-typed",
+    "typedef-converter": "$(npm bin)/typedef-converter",
+    "flow-typed:install": "npm run flow-typed -- install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flow-typed": "^2.0.0",
+    "rxjs": "^5.0.1",
+    "typedef-converter": "^0.1.4",
+    "xls-to-json": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "flow-bin": "^0.37.0"
+  }
+}
