@@ -1,7 +1,12 @@
 {
-    "extends": "plugin:flowtype/recommended",
+    "extends": "standard",
     "installedESLint": true,
     "plugins": [
         "flowtype"
-    ]
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "comma-dangle": ["error", "always-multiline"],
+        "quotes": ["error", "double"]
+    }
 }

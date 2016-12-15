@@ -15,12 +15,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flow-typed": "^2.0.0",
     "rxjs": "^5.0.1",
-    "typedef-converter": "^0.1.4",
     "xls-to-json": "^0.4.0"
   },
   "devDependencies": {
+    "flow-typed": "^2.0.0",
+    "tape": "^4.6.3",
+    "typedef-converter": "^0.1.4",
     "babel-eslint": "^7.1.1",
     "eslint": "^3.12.1",
     "eslint-config-standard": "^6.2.1",
