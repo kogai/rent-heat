@@ -23,7 +23,7 @@
     "tape": "^4.6.3",
     "typedef-converter": "^0.1.4",
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.12.1",
+    "eslint": "^4.18.2",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-promise": "^3.4.0",
